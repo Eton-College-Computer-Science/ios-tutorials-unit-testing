@@ -14,6 +14,7 @@
 		B41FDA152CB6BFB900F2C907 /* ChocolateBoxUnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FDA142CB6BFB900F2C907 /* ChocolateBoxUnitTestingTests.swift */; };
 		B41FDA1F2CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FDA1E2CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITests.swift */; };
 		B41FDA212CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FDA202CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITestsLaunchTests.swift */; };
+		B41FDA2F2CB6BFD800F2C907 /* ChocolateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FDA2E2CB6BFD800F2C907 /* ChocolateBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B41FDA1A2CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocolateBoxUnitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41FDA1E2CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateBoxUnitTestingUITests.swift; sourceTree = "<group>"; };
 		B41FDA202CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateBoxUnitTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B41FDA2E2CB6BFD800F2C907 /* ChocolateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		B41FDA022CB6BFB700F2C907 /* ChocolateBoxUnitTesting */ = {
 			isa = PBXGroup;
 			children = (
+				B41FDA2D2CB6BFC200F2C907 /* Model */,
 				B41FDA032CB6BFB700F2C907 /* ChocolateBoxUnitTestingApp.swift */,
 				B41FDA052CB6BFB700F2C907 /* ContentView.swift */,
 				B41FDA072CB6BFB900F2C907 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				B41FDA202CB6BFB900F2C907 /* ChocolateBoxUnitTestingUITestsLaunchTests.swift */,
 			);
 			path = ChocolateBoxUnitTestingUITests;
+			sourceTree = "<group>";
+		};
+		B41FDA2D2CB6BFC200F2C907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B41FDA2E2CB6BFD800F2C907 /* ChocolateBox.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41FDA2F2CB6BFD800F2C907 /* ChocolateBox.swift in Sources */,
 				B41FDA062CB6BFB700F2C907 /* ContentView.swift in Sources */,
 				B41FDA042CB6BFB700F2C907 /* ChocolateBoxUnitTestingApp.swift in Sources */,
 			);
