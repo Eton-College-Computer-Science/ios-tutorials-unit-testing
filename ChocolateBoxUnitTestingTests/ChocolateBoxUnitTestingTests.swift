@@ -17,6 +17,17 @@ final class ChocolateBoxUnitTestingTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testGetMostCalorificChocolateWith3ChocolatesReturnsLowest() {
+        //arrange
+        let box = ChocolateBox(chocolates: [Chocolate(name: "Mars", calories: 20),Chocolate(name: "Twix", calories: 40),Chocolate(name: "Mily Way", calories: 30),Chocolate(name: "Twirl", calories: 25)])
+        let expected = ("Twix", 40)
+        //act
+        let actual = box.getMostCalorificChocolate()
+        //assert
+        XCTAssertEqual(actual.0, expected.0)
+        XCTAssertEqual(actual.1, expected.1)
+    }
 
     func testExample() throws {
         // This is an example of a functional test case.
